@@ -82,6 +82,7 @@ div{
  #portfolio>figure>a>img{
    height:280px;
    width:100%;
+   box-shadow:5px 5px 8px gray;
    
 }
 figure{
