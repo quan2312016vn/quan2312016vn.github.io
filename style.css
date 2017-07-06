@@ -5,7 +5,7 @@ div{
 
 }
 #intro{
-  text-shadow:5px 5px 4px white;
+  text-shadow:3px 3px 4px white;
 }
 @media (min-width:200px) and (max-width:900px){
   #imgIntro{
@@ -82,7 +82,7 @@ div{
  #portfolio>figure>a>img{
    height:280px;
    width:100%;
-   box-shadow:5px 5px 8px gray;
+   box-shadow:7px 7px 8px gray;
    
 }
 figure{
