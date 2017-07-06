@@ -4,6 +4,9 @@ body{
 div{
 
 }
+#intro{
+  text-shadow:5px 5px 4px white;
+}
 @media (min-width:200px) and (max-width:900px){
   #imgIntro{
     z-index:-1;
