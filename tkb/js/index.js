@@ -3,6 +3,7 @@ function getTKB(){
   var day=x.value;
   var y=document.getElementById("list");
   var z=document.getElementById("list2");
+  y.style.color="black";
   var list="Sáng: ";
   var list2="Chiều: Không có tiết buổi chiều";
   switch(day){
@@ -30,6 +31,7 @@ function getTKB(){
   default:
         list="Không có danh sách thời khóa biểu cho ngày này, hoặc bạn nhập sai.";
         list2="";
+      y.style.color="red";
     }
    y.innerHTML=list;
    z.innerHTML=list2; 
