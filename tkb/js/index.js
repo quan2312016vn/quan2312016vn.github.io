@@ -19,7 +19,7 @@ function getTKB(){
         list2="Chiều: Thể dục (tiết 4, 5)";
         break;
     case '5':
-        list+="Sinh, Sinh, Toán (H), Anh, Địa; 
+        list+="Sinh, Sinh, Toán (H), Anh, Địa"; 
         
         break;
     case '6':
