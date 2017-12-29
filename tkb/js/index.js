@@ -8,7 +8,7 @@ function getTKB(){
   var list2="Chiều: Không có tiết buổi chiều";
   switch(day){
     case '2':
-        list+="SHCN ,Lý, Lý, Toán (H), Toán (H)";
+        list+="SHCN , Lý, Lý, Toán (H), Toán (H)";
         break;
      case '3':
         list+="Lí, Lý, Công dân, Tin, Văn";
