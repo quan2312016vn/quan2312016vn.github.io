@@ -8,26 +8,26 @@ function getTKB(){
   var list2="Chiều: Không có tiết buổi chiều";
   switch(day){
     case '2':
-        list+="SHCN ,Lý, Lý, Toán, Toán";
+        list+="SHCN ,Lý, Lý, Toán (H), Toán (H)";
         break;
      case '3':
-        list+="Lí, Sinh, Văn, Công dân, Tin";
+        list+="Lí, Lý, Công dân, Tin, Văn";
        
         break;
     case '4':
-        list+="Sử, Sinh, Anh, Toán, Toán";
+        list+="Sinh, Anh, Sử, Toán (S), Toán (S)";
         list2="Chiều: Thể dục (tiết 4, 5)";
         break;
     case '5':
-        list+="Văn, Văn, Toán, Anh, Anh"; 
-        list2="Chiều: Quốc phòng (tiết 2, 3)";
+        list+="Sinh, Sinh, Toán (H), Anh, Địa; 
+        
         break;
     case '6':
-        list+="Lý, Công Nghệ, Địa, Hoá, Hoá";
-        list2="Chiều: Sử, Toán, Toán (Tiết 3, 4, 5)";
+        list+="Địa, Văn, Văn, Hoá, Hoá";
+        list2="Chiều: Văn, Toán (S), Toán (S) (Tiết 3, 4, 5)";
         break;
     case '7':
-        list+="Hoá, Hoá, Văn, Anh, Sinh";
+        list+="Công Nghệ, Hoá, Hoá, Anh, Anh;
         break;          
   default:
         list="Không có danh sách thời khóa biểu cho ngày này, hoặc bạn nhập sai.";
