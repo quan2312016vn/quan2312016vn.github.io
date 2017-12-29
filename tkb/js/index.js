@@ -27,7 +27,7 @@ function getTKB(){
         list2="Chiều: Văn, Toán (S), Toán (S) (Tiết 3, 4, 5)";
         break;
     case '7':
-        list+="Công Nghệ, Hoá, Hoá, Anh, Anh;
+        list+="Công Nghệ, Hoá, Hoá, Anh, Anh";
         break;          
   default:
         list="Không có danh sách thời khóa biểu cho ngày này, hoặc bạn nhập sai.";
