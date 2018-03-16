@@ -2,7 +2,7 @@ function thi(){
   play();
   function play(){
 var a = new Date();
-var b = new Date(2018,6,25,0,0,0);
+var b = new Date(2018,5,25,0,0,0);
 var x=document.getElementById("time");
 var timeless=(b.getTime()-a.getTime());
 var timelessday=Math.floor((((b.getTime()-a.getTime())/1000)/3600)/24);
