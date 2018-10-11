@@ -1,80 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link href="style.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="code.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sake's Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <img id="imgIntro" src="https://raw.githubusercontent.com/quan2312016vn/quan2312016vn.github.io/master/banner_bg.jpg" >
-      <div id="intro">SAKE's PORTFOLIO</div>
-      <nav>
-        <a href="#intro">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#skill">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-       </nav>
-     </header>
-        <div class="main container-fluid">
-          <section id="about" class="row">
-            <h1 class="title col-md-12">| About Me |</h1>
-            <center><img src="https://raw.githubusercontent.com/quan2312016vn/quan2312016vn.github.io/master/19873716_1897257750529100_749866563_n.png" class="col-md-4 avt"></center>
-            <p class="col-md-8 col-sm-12">My name is Minh Quan, 17 years old. I'm a high school student. I was born and brought up in VietNam. I started to learn code 3 years ago and my first programming language is Pascal. I'm not really interested in Pascal, it's a compulsory subject in my school. However, I'm fond of Java, I want to be a Android Developer. And I will try to create perfect technologies which is useful for everyone. And now, I'm learning how to code a website to improve skills.</p>
-          </section>
-          
-          <section id="skill" class="row">
-            <h1 class="title">| Skills |</h1>
-             <figure class="col-md-4">
-              <img src="https://static.techtalk.vn/wp-content/uploads/2016/06/javabook-techtalk.jpg">
-              <figcaption>Java<figcaption>
-            </figure>
-            <figure class="col-md-4">
-              <img src="https://acuong.com/wp-content/uploads/2017/01/html-1024x768.jpg">
-              <figcaption>Html<figcaption>
-            </figure>
-            <figure class="col-md-4">
-              <img src="https://thachpham.com/wp-content/uploads/2013/07/css_banner.jpg">
-              <figcaption>Css<figcaption>
-            </figure>
-         </section>
-         
-         <section id="portfolio" class="row">
-           <h1 class="title">| Portfolio |</h1>
-           <figure class="col-md-6">
-             <a href="http://travelwithme.comeze.com/" target="_blank"><img src="https://raw.githubusercontent.com/quan2312016vn/quan2312016vn.github.io/master/19848844_1897590930495782_1732104938_n.png"></a>
-             <figcaption>Funny Horror Travel Website</figcaption>
-           </figure>
-           <figure class="col-md-6">
-             <a href="https://codepen.io/quan2312009vn/full/Kqympj/" target="_blank"><img src="https://raw.githubusercontent.com/quan2312016vn/quan2312016vn.github.io/master/19849072_1897591420495733_1648578031_n.png" ></a>
-             <figcaption>Tribute Page FFC</figcaption>
-           </figure>
-         </section>
-         
-         <section id="contact" class="row">
-           <h1 class="title">| Contact |</h1>
-           <div id="text" class="col-md-6" >
-             <p>Phone: <br/><span style="padding-left:30px;">(+84) 946 591 640</span></p>
-             <p>Email: <br/><span style="padding-left:30px;">quan2312009vn@gmail.com</span></p>
-             <p></p>
-           </div>
-           <div id="button" class="col-md-6">
-             <div><a href="https://www.facebook.com/sake.25" target="_blank"><button class="btn"><p>Facebook</p></button></a></div>
-             <div><a href="https://twitter.com/whiteforall" target="_blank"><button class="btn"><p>Twitter</p></button></a></div>
-             </div>
-         </section>
-        </div>
-        <footer>
-          <div id="copyright">©Copyright 2017 by Sake</div>
-         
-          
-     
-        </footer>
-        </body>
-      </html>
+<style>
+	body{
+		margin: 0;
+		background-color: red;
+		animation: ani2 2s infinite;
+	}
+	.heart{
+		background-color: pink;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		top:0;
+		bottom: 0;
+		right: 0;
+		left:0;
+		margin: auto;
+		transform: rotate(-45deg);
+		animation: ani 2s infinite;
+	}
+	.heart::after{
+		content: "";
+		background-color: pink;
+		position: absolute;
+		left:25px;
+		width:50px;
+		height:50px;
+		border-radius: 50%;
+		animation: ani 2s infinite;
+		
+	}
+	.heart::before{
+		content: "";
+		background-color: pink;
+		position: absolute;
+		left:0px;
+		top:-25px;
+		width:50px;
+		height:50px;
+		border-radius: 50%;
+		animation: ani 2s infinite;
+	}
+	h1{
+		text-align: center;
+		color:pink;
+		animation: ani_text 2s infinite;
+		font-family: Purisa;
+
+	}
+	
+	@keyframes ani{
+		0%{
+
+		}
+		50%{
+			
+			background-color:red;
+		}
+		100%{
+			background-color: pink;
+		}
+	}
+	.text{
+		position: absolute;
+		left:50%;
+		top:56%;
+		transform: translateX(-50%);
+	}
+	@keyframes ani2{
+		0%{
+
+		}
+		50%{
+			
+			background-color:pink;
+		}
+		100%{
+			background-color: red;
+		}
+	}
+	@keyframes ani_text{
+		0%{
+
+		}
+		50%{
+			
+			color:red;
+		}
+		100%{
+			color: pink;
+		}
+	}
+
+</style>
+
+<div class="heart"></div>
+<div class="text"><strong><h1>I Love You</h1></strong></div>
