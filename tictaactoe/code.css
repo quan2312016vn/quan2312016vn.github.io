@@ -1,0 +1,46 @@
+.game{
+  width:175px;
+  height:175px;
+}
+.box{
+  width:55px;
+  height:55px;
+  background-color: black;
+  float:left;
+  border: solid 1px yellow;
+  color:white;
+  text-align:center;
+  font-size: 40px;
+}
+.box:hover{
+  opacity:0.8;
+  cursor:pointer;
+}
+#status{
+    font-size: 50px;
+    color:red;
+    margin:25px;
+}
+button {
+  border:none;
+  width:100px;
+  height:50px;
+  font-size:16px;
+  font-weight: bold;
+  background:linear-gradient(
+      45deg, pink, lightgreen
+  );
+  box-shadow: 2px 2px 10px gray, 1px 1px 5px gray;
+}
+button:hover {
+  opacity:0.7;
+  cursor: pointer;
+}
+#together {
+  margin-bottom: 40px;
+}
+
+h1{
+  font-size:80px;
+  margin-bottom: 20px;
+}
